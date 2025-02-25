@@ -1,6 +1,6 @@
 
 // it is group of named constants
-enum StatusCodes {
+enum StatusCodes {  
     NOTFOUND =404,
     OK=200,
     SUCESS=200,
