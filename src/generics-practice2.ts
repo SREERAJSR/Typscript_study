@@ -19,6 +19,6 @@ function getValueBasedOnCondition<T extends Array<U> ,U>(list:T,condition:(item:
         return list.filter((item)=> condition(item))
 }
 
-const res = getValueBasedOnCondition<fruit[],fruit>(fruitsList,(item:fruit)=>item.color.length <4)
+const ress= getValueBasedOnCondition<fruit[],fruit>(fruitsList,(item:fruit)=>item.color.length <4)
 
 console.log(res);
